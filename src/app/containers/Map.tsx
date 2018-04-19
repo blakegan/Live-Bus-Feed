@@ -6,7 +6,7 @@ import { loadBusListReceived, loadBusListRequest } from '../actions/Map';
 import { MAPBOX_TOKEN } from '../constants/Map';
 import { COUNTER_INTERVAL } from '../constants/Timer';
 import { BusType, DispatchType, MapPropsType, MapStateType, RootStateType, ViewportType } from '../constants/types';
-import Timer from '../containers/Timer';
+import Timer from './Timer';
 
 import 'app/css/Map.css';
 import 'mapbox-gl/dist/mapbox-gl.css';
